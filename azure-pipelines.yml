@@ -7,6 +7,9 @@ trigger:
 - main
 
 pool:
+  name: DISHAPARAMESH  # Replace with your actual agent pool name
+  demands:
+
   vmImage: ubuntu-latest
 
 steps:
