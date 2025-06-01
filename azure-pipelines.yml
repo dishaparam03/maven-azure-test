@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  name: DISHAPARAMESH  # Replace with your actual agent pool name
+  name: Default  # Replace with your actual agent pool name
 
 steps:
 - task: Maven@3
