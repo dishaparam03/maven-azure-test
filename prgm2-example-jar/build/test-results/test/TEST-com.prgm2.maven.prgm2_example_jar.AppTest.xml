@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.prgm2.maven.prgm2_example_jar.AppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-05-31T16:04:11.585Z" hostname="DISHAPARAMESH" time="0.007">
+  <properties/>
+  <testcase name="testApp" classname="com.prgm2.maven.prgm2_example_jar.AppTest" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
