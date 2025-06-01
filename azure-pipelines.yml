@@ -8,9 +8,6 @@ trigger:
 
 pool:
   name: DISHAPARAMESH  # Replace with your actual agent pool name
-  demands:
-
-  vmImage: ubuntu-latest
 
 steps:
 - task: Maven@3
