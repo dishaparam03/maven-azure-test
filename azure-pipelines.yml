@@ -11,13 +11,12 @@ steps:
     echo JAVA_HOME is set to %JAVA_HOME%
   displayName: 'Set JAVA_HOME'
 
-
 - task: Maven@3
   inputs:
     mavenPomFile: './prgm2-example-jar/pom.xml'
     mavenOptions: '-Xmx3072m'
     javaHomeOption: 'Path'
-    jdkVersionOption: '21'
+    jdkDirectory: 'C:\Program Files\Java\jdk-21'  # Explicitly set JDK path
     jdkArchitectureOption: 'x64'
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
